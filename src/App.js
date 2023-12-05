@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
-import brandlogo from "./brandlogo.svg";
-// import apple from "./apple-icon.png";
-// import android from "./playstore-icon.png";
-// import holdphone from "./holdphone.svg";
-// import family from "./family.svg";
+import brandlogo from "./images/brandlogo.svg";
+import apple from "./images/apple-icon.png";
+import android from "./images/playstore-icon.png";
+import holdphone from "./images/holdphone.svg";
+import hero_image_pc from "./images/hero_image_pc.png";
+import family from "./images/family.svg";
 
 export default function App() {
   return (
@@ -18,7 +19,26 @@ export default function App() {
         </ul>
       </div>
       <div className="hero">
-        <text className="tagline">Making quality healthcare available for everyone</text>
+        <text className="tagline">
+          Making quality healthcare available for everyone
+        </text>
+        <text className="welcometext">
+          Welcome to Hospiyou, where quality healthcare meets you wherever you
+          are
+        </text>
+        <div className="downloaddiv">
+          <button className="downloadbutton">
+            <img src={apple} alt="appleicon" className="icon-style" />
+            <text className="downloadtext">Get app on Apple store</text>
+          </button>
+          <button className="downloadbutton">
+            <img src={android} alt="playstoreicon" className="icon-style" />
+            <text className="downloadtext">Get app on Play store</text>
+          </button>
+          <div>
+            <image src={hero_image_pc} className="hero_image_pc"/>
+          </div>
+        </div>
       </div>
     </div>
   );

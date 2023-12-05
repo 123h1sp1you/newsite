@@ -34,11 +34,13 @@
 
 .hero {
   display: flex;
-  width: '100%';
-  background-color: red;
+  flex-direction: column;
+  width: "100%";
   text-align: center;
   align-items: center;
   margin: 40px;
+  /* padding-left: 350;
+  padding-right: 350; */
 }
 
 .tagline {
@@ -50,6 +52,55 @@
   line-height: normal;
   width: 600px;
   height: 116px;
+}
+
+.welcometext {
+  color: #0a1f42;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  width: 513px;
+  height: 50px;
+  margin: 16px;
+}
+
+.downloaddiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 672px;
+  height: 72px;
+  margin: 20px;
+}
+
+.downloadbutton {
+  display: flex;
+  height: 72px;
+  padding: 10px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: #0a1f42;
+}
+.downloadtext {
+  color: #fff;
+  width: 222px;
+  height: 24px;
+  font-size: 20px;
+}
+
+.icon-style {
+  width: 24px;
+  height: 24px;
+}
+
+.hero_image_pc {
+  width: "70%";
+  height: auto;
 }
 
 /* .image-style {
@@ -108,10 +159,6 @@
     gap: 10px;
     border-radius: 12px;
     background: #0a1f42;
-  }
-  .icon-style {
-    width: 24px;
-    height: 24px;
   }
   .button-title {
     color: #fff;
