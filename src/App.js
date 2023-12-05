@@ -59,7 +59,9 @@ export default function App() {
           <text className="forwhoheader">Who is Hospiyou for?</text>
         </div>
         <div style={imagebg}>
-          <div></div>
+          <div>
+            
+          </div>
         </div>
       </div>
     </div>
