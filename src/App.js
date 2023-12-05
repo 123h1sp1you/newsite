@@ -1,16 +1,30 @@
 import React from "react";
 import "./App.css";
 import brandlogo from "./brandlogo.svg";
-import apple from "./apple-icon.png";
-import android from "./playstore-icon.png";
-import holdphone from "./holdphone.svg";
-import family from "./family.svg";
+// import apple from "./apple-icon.png";
+// import android from "./playstore-icon.png";
+// import holdphone from "./holdphone.svg";
+// import family from "./family.svg";
 
 export default function App() {
   return (
     <div className="container">
-      <div className="navbar-container">
-        <img src={brandlogo} alt="brand" className="image-style" />
+      <div className="header">
+        <img src={brandlogo} alt="brand" />
+        <ul className="nav">
+          <li className="nav-button">Our goals</li>
+          <li className="nav-button">Our services</li>
+          <li className="nav-button">About</li>
+        </ul>
+      </div>
+      <div className="hero">
+        <text className="tagline">Making quality healthcare available for everyone</text>
+      </div>
+    </div>
+  );
+}
+
+/* <div className="navbar-container">
         <button className="navbar-button">
           <h5 className="navbarbutton-title">Download</h5>
         </button>
@@ -23,19 +37,28 @@ export default function App() {
           Welcome to Hospiyou, where quality healthcare meets you wherever you
           are
         </h5>
+        </div>
         <div className="download-buttons">
+          <div>
           <button className="store-button">
             <img src={android} alt="icon" className="icon-style" />
             <h5 className="button-title">Get app on Play Store</h5>
           </button>
+          </div>
+          <div>
           <button className="store-button">
             <img src={apple} alt="icon-two" className="icon-style" />
             <h5 className="button-title">Get app on Apple store</h5>
           </button>
+          </div>
+          <div>
           <img src={holdphone} alt="phone" className="holdphone-style" />
+          </div>
         </div>
+        <div>
         <h2 className="who">Who is Hospiyou for?</h2>
         <h5 className="exist">We exist for everyone in the world</h5>
+        </div>
         <div className="dummy-bg">
           <h3 className="foryou">For you and your family</h3>
           <h6 className="explanation">
@@ -46,6 +69,4 @@ export default function App() {
           <img src={family} alt="famtwo" className="family-style" />
         </div>
       </div>
-    </div>
-  );
-}
+    </div> */
