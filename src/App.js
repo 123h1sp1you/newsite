@@ -5,9 +5,23 @@ import apple from "./images/apple-icon.png";
 import android from "./images/playstore-icon.png";
 import holdphone from "./images/holdphone.svg";
 import hero_image_pc from "./images/hero_image_pc.png";
+import bg from "./images/bg.png";
+// import bg_mobile from "./images/bg.png";
 import family from "./images/family.svg";
 
 export default function App() {
+
+  const imagebg = {
+    background: `url(${bg})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    height: 624,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 50,
+  };
+
   return (
     <div className="container">
       <div className="header">
@@ -36,8 +50,16 @@ export default function App() {
             <text className="downloadtext">Get app on Play store</text>
           </button>
         </div>
-        <div className="hero_image">
-          <image src={hero_image_pc} className="hero_image_pc" />
+      </div>
+      <div className="hero_image">
+        <img src={hero_image_pc} className="hero_image_pc" alt="hero-image" />
+      </div>
+      <div className="forwho">
+        <div>
+          <text className="forwhoheader">Who is Hospiyou for?</text>
+        </div>
+        <div style={imagebg}>
+          <div></div>
         </div>
       </div>
     </div>

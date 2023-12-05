@@ -99,14 +99,43 @@
 }
 
 .hero_image {
-  width: '100%';
-  height: '100%';
-  background-color: red;
+  display: flex;
+  height: 500;
+  width: 500;
+  align-items: center;
+  justify-content: center;
 }
 
-.hero_image .hero_image_pc {
-  width: '70%';
+.hero_image_pc {
+  width: '100%';
 }
+
+.forwho {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.forwhoheader {
+  color: #0a1f42;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 600px;
+  height: 116px;
+  margin-bottom: 100px;
+}
+
+
+
+/* @media (max-width: 600px) {
+  .header {
+    Header styles for screens 600px and narrower
+  }
+} */
+
 
 /* .image-style {
   width: 80px;
