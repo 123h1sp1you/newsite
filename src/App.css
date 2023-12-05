@@ -1,0 +1,126 @@
+@media screen and (max-width: 480px)
+{
+.container {
+  align-items: center;
+}
+.navbar-container {
+  background-color: red;
+  flex-direction: row;
+  width: 100%;
+  height: 56px;
+  justify-content: space-between;
+  }
+.image-style {
+  width: 80px;
+height: 40px;
+  flex-shrink: 0;
+  margin-top: 10px;
+}
+.making {
+  color: #0a1f42;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.welcome {
+  color: #0a1f42;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.hero {
+  justify-items: flex-start;
+  align-items: center;
+}
+.download-buttons {
+  align-self: center;
+  gap: 50px;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.store-button {
+  width: 95%;
+  flex-direction: row;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: #0a1f42;
+}
+.icon-style {
+  width: 24px;
+  height: 24px;
+}
+.button-title {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.holdphone-style {
+  width: 340px;
+height: 448px;
+flex-shrink: 0;
+}
+.navbar-button {
+border-radius: 8px;
+background-color: #9747FF;
+width: 80px;
+height: 30px;
+justify-content: center;
+align-items: center;
+}
+.navbarbutton-title {
+  color: #FFF;
+}
+.who {
+color: #0A1F42;
+text-align: center;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.exist {
+  color: #0A1F42;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  }
+.dummy-bg {
+height: 578px;
+width: "100%";
+background-color: #9747FF;
+padding: 10px;
+}
+.foryou {
+color: #FFF;
+text-align: left;
+
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.explanation {
+color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 22.4px */
+}
+.family {
+  width: 322px;
+height: 322px;
+flex-shrink: 0;
+}
+}
