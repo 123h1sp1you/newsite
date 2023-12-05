@@ -35,9 +35,9 @@ export default function App() {
             <img src={android} alt="playstoreicon" className="icon-style" />
             <text className="downloadtext">Get app on Play store</text>
           </button>
-          <div>
-            <image src={hero_image_pc} className="hero_image_pc"/>
-          </div>
+        </div>
+        <div className="hero_image">
+          <image src={hero_image_pc} className="hero_image_pc" />
         </div>
       </div>
     </div>
