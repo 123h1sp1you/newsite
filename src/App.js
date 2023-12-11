@@ -1,33 +1,33 @@
 import React from "react";
 import "./App.css";
 
-//import Aboutpage from "./pages/aboutpage";
+// import Aboutpage from "./pages/aboutpage";
 
-//import Enquiry from "./pages/enquiry";
+// import Enquiry from "./pages/enquiry";
 
-//import Footerpage from "./pages/footerpage";
+// import Footerpage from "./pages/footerpage";
 
-//import Forpage from "./pages/forpage";
+// import Forpage from "./pages/forpage";
 
-//import Headerpage from "./pages/headerpage";
+import Headerpage from "./pages/headerpage";
 
-//import Heroimagepage from "./pages/heroimagepage";
+// import Heroimagepage from "./pages/heroimagepage";
 
-//import Heropage from "./pages/heropage";
+// import Heropage from "./pages/heropage";
 
-//import Ourgoal from "./pages/ourgoal";
+// import Ourgoal from "./pages/ourgoal";
 
-//import Servicepage from "./pages/servicepage";
+// import Servicepage from "./pages/servicepage";
 
-//import Team from "./pages/team";
+// import Team from "./pages/team";
 
-import Note from "./pages/note";
+//import Note from "./pages/note";
 
 function App() {
   return (
     <div className="container">
-      {/*} <Headerpage />
-      <Heropage />
+      <Headerpage />
+      {/* <Heropage />
       <Heroimagepage />
       <Enquiry />
       <Forpage />
@@ -35,8 +35,7 @@ function App() {
       <Servicepage />
       <Team />
       <Aboutpage />
-  <Footerpage /> */}
-      <Note />
+      <Footerpage /> */}
     </div>
   );
 }
