@@ -489,7 +489,7 @@
   height: 80vh;
   width: 100vw;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly ;
   background-color: #f1f9fe;
   display: flex;
   flex-direction: row;
@@ -558,6 +558,24 @@
   display: flex;
   flex-direction: column;
 }
+
+.below-social {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-download {
+  display: none;
+}
+
+.footerdownloadtext{
+  display: none;
+}
+
+.footer-install {
+  display: none;
+}
+
 .second-div {
   display: flex;
   flex-direction: column;
@@ -659,7 +677,9 @@
   font-weight: 400;
   line-height: 150%;
   text-align: left;
+  margin-bottom: 24px;
 }
+
 .note-div {
   padding-top: 75px;
   padding-left: 116px;
@@ -1105,7 +1125,6 @@
 
   .back {
     width: 733px;
-
     border-radius: 16px;
     height: 887px;
     background: #e9d9ff;
@@ -1302,42 +1321,29 @@
     width: 24px;
     height: 24px;
   }
+
   .footer-download_pc {
-    display: flex;
-    width: 402px;
-    padding: 24px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    text-align: center;
-    border-radius: 12px;
-    background: #f0e4ff;
-    height: 271px;
-    margin-top: 48px;
-    justify-content: flex-start;
-  }
-  .below-social .footer-download {
-    display: none;
-    background-color: red;
-  }
-
-  .footer-download .footerdownloadtext {
-    display: none;
-  }
-
-  .footer-download .footer-install {
-    display: none;
-  }
-
-  .footer-download .downloadbutton {
     display: none;
   }
 
   .below-social {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
+
+  .footer-download {
+    display: block;
+  }
+
+  .footerdownloadtext{
+    display: block;
+  }
+
+ .footer-install {
+    display: block;
+  }
+
+
   .second-div {
     display: flex;
     flex-direction: column;
@@ -1385,6 +1391,7 @@
     font-weight: 700;
     line-height: 150%;
   }
+
   .medpract {
     color: #0a1f42;
     font-family: Inter;
@@ -1399,7 +1406,6 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%;
   }
   .position-div {
     width: 733px;
