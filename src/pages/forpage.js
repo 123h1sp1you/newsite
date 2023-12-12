@@ -1,6 +1,6 @@
 import React from "react";
 import docs from "../images/docs.png";
-
+import facilitypic from "../images/facilitypic.png";
 const forpage = () => {
   return (
     <div className="fordiv">
@@ -20,7 +20,7 @@ const forpage = () => {
           patients seamlessly, and provide unparalleled services with our
           comprehensive platform.
         </text>
-        <img src={docs} className="docstyle" alt="docsalt" />
+        <img src={facilitypic} className="docstyle" alt="facalt" />
       </div>
     </div>
   );

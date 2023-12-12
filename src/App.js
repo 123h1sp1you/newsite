@@ -5,9 +5,9 @@ import "./App.css";
 
 // import Enquiry from "./pages/enquiry";
 
-import Footerpage from "./pages/footerpage";
+// import Footerpage from "./pages/footerpage";
 
-// import Forpage from "./pages/forpage";
+import Forpage from "./pages/forpage";
 
 // import Headerpage from "./pages/headerpage";
 
@@ -29,13 +29,13 @@ function App() {
       {/* <Headerpage />
       <Heropage />
       <Heroimagepage />
-      <Enquiry />
-     <Forpage />
-      <Ourgoal />
+      <Enquiry /> */}
+      <Forpage />
+      {/* <Ourgoal />
       <Servicepage />
       <Team />
-      <Aboutpage /> */}
-      <Footerpage />
+      <Aboutpage />
+      <Footerpage /> */}
     </div>
   );
 }
