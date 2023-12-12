@@ -3,7 +3,7 @@ import "./App.css";
 
 // import Aboutpage from "./pages/aboutpage";
 
-// import Enquiry from "./pages/enquiry";
+import Enquiry from "./pages/enquiry";
 
 // import Footerpage from "./pages/footerpage";
 
@@ -11,9 +11,9 @@ import "./App.css";
 
 import Headerpage from "./pages/headerpage";
 
-// import Heroimagepage from "./pages/heroimagepage";
+import Heroimagepage from "./pages/heroimagepage";
 
-// import Heropage from "./pages/heropage";
+import Heropage from "./pages/heropage";
 
 // import Ourgoal from "./pages/ourgoal";
 
@@ -27,15 +27,15 @@ function App() {
   return (
     <div className="container">
       <Headerpage />
-      {/* <Heropage />
+      <Heropage />
       <Heroimagepage />
       <Enquiry />
-      <Forpage />
+     {/* <Forpage />
       <Ourgoal />
       <Servicepage />
       <Team />
       <Aboutpage />
-      <Footerpage /> */}
+  <Footerpage /> */}
     </div>
   );
 }

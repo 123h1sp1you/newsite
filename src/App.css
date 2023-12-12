@@ -1,26 +1,29 @@
 .container {
-  flex: 1;
+  display: flex;
+  width: "100%";
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #fff;
-}
-.brandpic {
-  width: 154px;
-  height: 40px;
+  overflow-x: hidden;
 }
 
 .header {
   display: flex;
-  width: "100%";
+  width: 90vw;
   flex-direction: row;
   justify-content: space-between;
   height: 56px;
   margin-right: 116px;
   margin-left: 116px;
-  margin-top: 40px;
-  
- 
+  padding-top: 40px;
 }
+
+.brandpic {
+  width: "40%";
+  height: 40px;
+}
+
 .header-button {
   display: inline-flex;
   border-radius: 8px;
@@ -30,7 +33,6 @@
   padding: 10px 14px;
   justify-content: center;
   align-items: center;
-  
   border-width: 0px;
   display: none;
 }
@@ -140,13 +142,13 @@
 }
 
 .forwho {
-  text-align: center;
   margin-top: 100px;
   display: flex;
   flex-direction: column;
 }
 
 .forwhoheader {
+  text-align: center;
   align-self: center;
   color: #0a1f42;
   font-family: Inter;
@@ -162,6 +164,7 @@
   height: 528px;
   flex-shrink: 0;
 }
+
 .exist {
   margin-top: 10px;
   color: #0a1f42;
@@ -177,12 +180,14 @@
   width: 623px;
   height: 528px;
 }
+
 .whodivtwo {
   flex-direction: row;
   display: flex;
   gap: 40px;
   justify-content: space-between;
 }
+
 .foryou {
   color: #fff;
   font-family: Inter;
@@ -191,8 +196,14 @@
   font-weight: 600;
   line-height: normal;
 }
+
 .bg1 {
   display: block;
+  width: 100vw;
+}
+
+.bg2 {
+  display: none;
 }
 
 .details {
@@ -709,120 +720,100 @@
   line-height: normal;
 }
 
-@media (max-width: 425px) {
-
+@media (max-width: 525px) {
   .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 10px;
     width: "100%";
-    
     align-items: center;
     justify-content: center;
     background-color: #fff;
+    overflow-x: hidden;
   }
 
   .header {
     display: flex;
     flex-direction: row;
+    width: 90vw;
+    margin: auto;
     justify-content: space-between;
-    
     align-items: center;
   }
 
- .brandpic {
-    height: 24px;
+  .brandpic {
+    height: 26px;
     width: "30%";
   }
-  
+
   .header-button {
     display: block;
     border-radius: 8px;
     background: #9747ff;
     width: "30%";
-    height: 40px;
     padding: 10px 14px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
   }
 
   .nav {
     display: none;
-    flex-direction: row;
-    justify-content: space-around;
   }
 
   .nav-button {
-    color: #0a1f42;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    list-style: none;
-    margin-right: 20px;
+    display: none;
   }
 
   .hero {
+    margin-top: 50px;
+    width: 90vw;
     display: flex;
     flex-direction: column;
-    width: "100%";
-    text-align: center;
     align-items: center;
-    margin: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
+    justify-content: center;
+    text-align: center;
   }
-    
+
   .tagline {
+    width: 85vw;
     color: #0a1f42;
     text-align: center;
-    font-family: Inter;
     font-size: 32px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
-    height: 117px;
-    width: "65%";
   }
 
   .welcometext {
+    width: 80vw;
     color: #0a1f42;
     text-align: center;
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%;
-    height: 48px;
-    width: "65%";
   }
 
   .downloaddiv {
+    width: 90vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: "100%";
-    height: 128px;
-    margin: 20px;
-    gap: 16px;
+    height: 50px;
+    gap: 10px;
   }
 
   .downloadbutton {
     display: flex;
-    height: 72px;
-    padding: 10px 32px;
+    height: 56px;
+    width: 90vw;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     border-radius: 12px;
     background: #0a1f42;
-    width: "100%";
   }
+
   .downloadtext {
     color: #fff;
-    width: 222px;
     height: 24px;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .icon-style {
@@ -830,19 +821,16 @@
     height: 24px;
   }
 
-  .hero_image {
-    display: flex;
-    height: 500;
-    width: 500;
+  .hero_image_pc {
     display: none;
-    align-items: center;
-    justify-content: center;
   }
 
-  .hero_image_pc {
-    width: "100%";
-    display: none;
+  .mobileholdstyle {
+    margin-top: 40px;
+    width: 90vw;
+    display: block;
   }
+
   .bg1 {
     display: none;
   }
@@ -851,8 +839,8 @@
   }
 
   .forwho {
+    width: 100vw;
     text-align: center;
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
   }
@@ -861,7 +849,7 @@
     align-self: center;
     color: #0a1f42;
     font-family: Inter;
-    font-size: 48px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -879,23 +867,18 @@
     color: #0a1f42;
     text-align: center;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
   }
-  .mobileholdstyle {
-    width: "100%";
-    height: 448px;
-    display: block;
-  }
 
   .fapng {
-    width: 623px;
-    height: 528px;
+    width: 380px;
+    height: 322px;
   }
   .whodivtwo {
-    flex-direction: row;
+    flex-direction: column-reverse;
     display: flex;
     gap: 40px;
     justify-content: space-between;
@@ -903,7 +886,7 @@
   .foryou {
     color: #fff;
     font-family: Inter;
-    font-size: 40px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -912,7 +895,7 @@
   .details {
     color: #fff;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
@@ -922,11 +905,10 @@
   .detaildiv {
     flex-direction: column;
     justify-content: center;
-
     text-align: left;
     width: "50%";
     display: flex;
-    width: 612px;
+    width: 80vw;
   }
 
   .fordiv {

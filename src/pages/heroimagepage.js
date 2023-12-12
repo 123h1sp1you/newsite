@@ -4,11 +4,13 @@ import mobilehold from "../images/mobilehold.png";
 
 const heroimagepage = () => {
   return (
-    <div>
-      <div className="hero_image">
-        <img src={hero_image_pc} className="hero_image_pc" alt="hero_image" />
+    <div style={{flex: 1, justifyContent: 'center', alignSelf: 'center'}}>
+      <div className="hero_image_pc">
+        <img src={hero_image_pc} alt="hero_image" />
       </div>
-      <img src={mobilehold} className="mobileholdstyle" alt="mobile-alt" />
+      <div className="mobileholdstyle">
+        <img src={mobilehold} alt="mobile-alt" style={{width: "100%", }} />
+      </div>
     </div>
   );
 };
