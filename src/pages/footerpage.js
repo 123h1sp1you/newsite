@@ -48,23 +48,24 @@ const footerpage = () => {
           </div>
         </div>
       </div>
-
-      <div className="second-div">
-        <div className="legal-div">
-          <text className="Legal-text">Legal</text>
-          <text className="deletion">Request deletion of account</text>
+      <div>
+        <div className="second-div">
+          <div className="legal-div">
+            <text className="Legal-text">Legal</text>
+            <text className="deletion">Request deletion of account</text>
+          </div>
+          <div className="TC">
+            <text className="TC-text">Terms & conditions</text>
+            <text className="medpract">For medical practitioners</text>
+            <text className="individual">For individuals</text>
+          </div>
         </div>
-        <div className="TC">
-          <text className="TC-text">Terms & conditions</text>
-          <text className="medpract">For medical practitioners</text>
-          <text className="individual">For individuals</text>
+        <div className="third-div">
+          <text className="support-text">Support</text>
+          <text className="support-text2">Hospiyou for doctors</text>
+          <text className="support-text2">Contact Us</text>
+          <text className="support-text2">Investors</text>
         </div>
-      </div>
-      <div className="third-div">
-        <text className="support-text">Support</text>
-        <text className="support-text2">Hospiyou for doctors</text>
-        <text className="support-text2">Contact Us</text>
-        <text className="support-text2">Investors</text>
       </div>
     </div>
   );
