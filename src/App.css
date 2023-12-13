@@ -949,7 +949,7 @@
 
   .fordiv {
     flex-direction: column;
-     gap: 32px;
+    gap: 32px;
     width: 90vw;
     margin-top: 55px;
     justify-content: space-between;
@@ -1288,6 +1288,8 @@
     width: 100vw;
     height: 100vh;
     background-color: #f1f9fe;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .footer {
@@ -1302,26 +1304,28 @@
     width: "40%";
     height: 34px;
   }
+
   .logo-container {
     align-self: center;
     width: 90vw;
-    height: 48px;
+    height: 36px;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 10px;
     display: flex;
-    margin-top: 38px;
+    margin-top: 30px;
   }
 
   .logo-div {
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 12px;
     background: #f0e4ff;
   }
+
   .logo-style {
     width: 24px;
     height: 24px;
@@ -1333,22 +1337,24 @@
 
   .below-social {
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: row;
+    width: 90vw;
+    height: 30vh;
+    padding: 20px;
   }
 
-
   .footer-download {
-    display: flex;
-    width: 90vw;
     padding: 24px;
+    display: flex;
+    width: 80vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 24px;
-    text-align: center;
-    border-radius: 12px;
     background: #f0e4ff;
-    height: 191px;
+    border-radius: 12px;
   }
 
   .footerdownloadtext {
@@ -1356,7 +1362,7 @@
     color: #0a1f42;
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -1364,21 +1370,49 @@
 
   .footer-install {
     display: block;
+    width: 70vw;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+  }
+
+  .downloadbutton {
+    display: block;
+    height: 56px;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
   }
 
   .second-div {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    width: 90vw;
+    padding-top: 20px;
+    margin-left: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+  }
+
+  .third-div {
+    margin-left: 10px;
+    margin-top: 20px;
+    /* gap: 16px; */
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 
   .legal-div {
-    display: flex;
+    margin-left: 135px;
+    margin-bottom: 20px;
+    height: auto;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    width: 319px;
-    height: 108px;
+    align-self: center;
+    gap: 16px;
   }
 
   .Legal-text {
@@ -1387,24 +1421,24 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%;
+    margin-bottom: 8px;
   }
 
   .deletion {
     color: #0a1f42;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 36px */
   }
 
   .TC {
-    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
+    align-self: center;
+    gap: 16px;
   }
+  
   .TC-text {
     color: #0a1f42;
     font-family: Inter;
@@ -1417,47 +1451,39 @@
   .medpract {
     color: #0a1f42;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
   }
+
   .individual {
     color: #0a1f42;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    line-height: 150%;
   }
-  .position-div {
-    width: 733px;
-    height: "100%";
-  }
-  .third-div {
-    margin-left: 85px;
-    display: flex;
-    width: 40vw;
-    height: 212px;
-  }
-
+  
   .support-text {
     color: #0a1f42;
-    text-align: left;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%;
-    margin-bottom: 24px;
   }
-
+  
   .support-text2 {
     color: #0a1f42;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%;
-    text-align: left;
+  }
+  
+  .position-div {
+    width: 733px;
+    height: "100%";
   }
 }
