@@ -1,5 +1,6 @@
 import React from "react";
 import purple from "../images/purple.png";
+import purplemobile from "../images/purple-mobile.png";
 
 const ourgoal = () => {
   return (
@@ -19,6 +20,7 @@ const ourgoal = () => {
         </div>
       </div>
       <img src={purple} className="purple-style" alt="purplealt" />
+      <img src={purplemobile} className="purple-mobile" alt="purplephonealt" />
     </div>
   );
 };

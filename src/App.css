@@ -227,13 +227,11 @@
 }
 
 .fordiv {
-  flex-direction: row;
-  width: "100%";
-  margin-top: 55px;
-  justify-content: space-between;
-  display: flex;
-  padding-left: 55px;
-  padding-right: 55px;
+  display: none;
+}
+
+.for-mobile {
+  display: block;
 }
 
 .practitioner {
@@ -294,8 +292,7 @@
 }
 .whycare {
   color: #0a1f42;
-
-  font-family: Inter;
+   font-family: Inter;
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
@@ -304,8 +301,8 @@
 .whygeneral {
   flex-direction: row;
   padding-top: 71px;
-  padding-left: 114px;
-  padding-right: 114px;
+  /* padding-left: 114px;
+  padding-right: 114px; */
   height: 760px;
   width: "100%";
   display: flex;
@@ -356,6 +353,9 @@
   width: 733px;
   height: 659px;
 }
+.purple-mobile {
+  display: none;
+}
 
 .services {
   width: "100%";
@@ -373,6 +373,9 @@
   font-weight: 600;
   line-height: normal;
   text-align: center;
+}
+.half {
+  display: none;
 }
 
 .following {
@@ -402,6 +405,9 @@
   flex-direction: row;
 }
 
+.mobile-back {
+  display: none;
+}
 .back {
   width: 733px;
 
@@ -755,6 +761,9 @@
   display: flex;
   flex-direction: row;
 }
+.for-general {
+  align-items: center;
+}
 
 @media (max-width: 525px) {
   .container {
@@ -844,6 +853,8 @@
     align-items: center;
     border-radius: 12px;
     background: #0a1f42;
+    border-width: 0px;
+    gap: 10px;
   }
 
   .downloadtext {
@@ -948,14 +959,7 @@
   }
 
   .fordiv {
-    flex-direction: column;
-    gap: 32px;
-    width: 90vw;
-    margin-top: 55px;
-    justify-content: space-between;
-    display: flex;
-    /* padding-left: 10px;
-    padding-right: 10px; */
+    display: none;
   }
   .fac {
     width: 70vw;
@@ -977,27 +981,96 @@
   }
   .for {
     color: #0a1f42;
+
     text-align: center;
     font-family: Inter;
-    font-size: 32px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
   }
   .empower {
     color: rgba(10, 31, 66, 0.83);
-    margin-top: 10px;
+
     font-family: Inter;
-    font-size: 20px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 160%; /* 32px */
+    line-height: 160%;
+  }
+  .for-general {
+    align-items: center;
+  }
+  .for-mobile {
+    display: flex;
+    height: 1260px;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pract-mobile {
+    border-radius: 16px;
+    background-color: #f1f9fe;
+    margin-top: 38px;
+    box-shadow: 10px 10px #9cd9ff;
+    width: 80vw;
+    height: 545px;
+    padding-left: 20px;
+    padding-right: 19px;
+    padding-top: 32px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    box-shadow: 10px 10px #9cd9ff;
+  }
+  .med-mobile {
+    background-color: #f0fbe9;
+    border-radius: 16px;
+    margin-top: 38px;
+    width: 80vw;
+    height: 545px;
+    padding-left: 20px;
+    padding-right: 19px;
+    padding-top: 32px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    box-shadow: 10px 10px #c1fc99;
   }
 
   .docstyle {
-    width: 90vw;
+    width: auto;
     height: 352px;
     margin-top: 78px;
+  }
+
+  .doc-mobile-style {
+    height: 352px;
+    width: 80vw;
+    margin-top: 32px;
+  }
+
+  .empower-mobile {
+    color: rgba(10, 31, 66, 0.83);
+    margin-top: 12px;
+    margin-bottom: 32px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    height: 88px;
+  }
+
+  .fortext {
+    color: #0a1f42;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
   }
 
   .facility {
@@ -1020,33 +1093,32 @@
   }
   .whycare {
     color: #0a1f42;
-
+    text-align: left;
     font-family: Inter;
-    font-size: 48px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
   }
   .whygeneral {
-    flex-direction: row;
-    padding-top: 71px;
-    padding-left: 114px;
-    padding-right: 114px;
-    height: 760px;
-    width: "100%";
+    flex-direction: column;
+    padding-top: 50px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    height: 1003px;
+    width: 100vw;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
   }
   .goaldiv {
-    display: inline-flex;
-    margin-top: 30px;
-    width: 475px;
-    height: 167px;
-    padding: 24px;
+    display: flex;
+    width: 85vw;
+    padding: 16px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 12px;
+    height: 121px;
     border-radius: 12px;
     background: #9747ff;
   }
@@ -1054,7 +1126,7 @@
     color: #fff;
     text-align: center;
     font-family: Inter;
-    font-size: 32px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -1062,72 +1134,103 @@
   .set {
     color: #fff;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 170%; /* 34px */
+    line-height: 170%;
   }
 
   .believe {
     color: #0a1f42;
-    margin-top: 24px;
+    width: 90vw;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 14px;
     font-style: normal;
-    width: 505px;
     font-weight: 400;
     line-height: 170%;
   }
   .purple-style {
-    width: 733px;
-    height: 659px;
+   
+    display: none;
+  }
+  .purple-mobile {
+    height: 545px;
+    display: block;
+    width: 90vw;
+    box-shadow: 10px 10px #9747FF;
+    border-radius: 16px;
   }
 
   .services {
-    width: "100%";
-    height: 1290px;
+    width: 100vw;
     display: flex;
-    width: "100%";
+    height: 1300px;
     align-items: center;
     flex-direction: column;
   }
   .unique {
-    color: #0a1f42;
+    color: #0A1F42;
+    text-align: center;
     font-family: Inter;
-    font-size: 48px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    text-align: center;
+    margin-top: 105px;
   }
 
   .following {
-    color: #0a1f42;
+    color: #0A1F42;
+    width: 90vw;
     text-align: center;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    width: 651px;
-    line-height: 150%; /* 36px */
+    line-height: 150%;
   }
   .downloaddivtwo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    width: 672px;
+    align-items: center;
+    width: 90vw;
     height: 72px;
-    margin: 20px;
+    gap: 20px;
+  }
+  .half {
+    display: block;
+    height: 519px;
+    width: 80vw;
+    margin-top: 26px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   .servicedivtwo {
     display: flex;
     margin-top: 70px;
     justify-content: space-between;
-    height: 890px;
-    width: 1512px;
-    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    flex-direction: column;
   }
-
+  .mobile-back {
+    height: 545px;
+    width: 90vw;
+    align-items: center;
+    display: block;
+    background-color: #F1F9FE;
+    align-self: center;
+    border-radius: 16px;
+    box-shadow: 10px 10px #9CD9FF;
+  }
+  .pos-div {
+    width: "100%";
+    height: "100%";
+    align-items: center;
+    
+  }
   .back {
     width: 733px;
     border-radius: 16px;
@@ -1135,18 +1238,19 @@
     background: #e9d9ff;
     box-shadow: 10px 10px #9747ff;
     margin-left: 98px;
-    display: flex;
+    display: none;
   }
   .humans {
     display: flex;
-    width: "100%";
-    height: 578px;
+    width: 100vw;
+    height: 430px;
     align-items: center;
     flex-direction: column;
   }
 
   .of {
     color: #0a1f42;
+    width: 60vw;
     text-align: center;
     font-family: Inter;
     font-size: 40px;
@@ -1156,30 +1260,32 @@
   }
   .behind {
     color: #0a1f42;
+
     text-align: center;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 36px */
-    margin-top: 16px;
+    line-height: 150%;
   }
 
   .team {
-    margin-top: 63px;
+    margin-top: 32px;
     display: flex;
+    width: 100vw;
   }
   .teamdivone {
-    gap: 16;
+    gap: 10px;
     display: flex;
-    width: 1244px;
+    width: 100vw;
     height: 100px;
     justify-content: space-around;
+    overflow-x: scroll;
   }
 
   .pictures {
-    width: 110px;
-    height: 100px;
+    width: 72px;
+    height: 72px;
   }
 
   .phone {
@@ -1190,10 +1296,12 @@
   }
 
   .list {
-    margin-right: 127px;
+    
+    height: 424px;
+    width: 70vw;
   }
   .about {
-    height: 667px;
+    height: 538px;
     width: "100%";
     flex-direction: column;
     display: flex;
@@ -1201,13 +1309,18 @@
   }
   .abouthospiyou {
     color: #0a1f42;
+    
     text-align: center;
     font-family: Inter;
-    font-size: 48px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-bottom: 51px;
+    margin-top: 50px;
+  }
+  .YTdiv {
+    width: 90vw;
+    height: 348px;
   }
   .note-div {
     padding-top: 75px;
@@ -1279,11 +1392,6 @@
     font-weight: 600;
     line-height: normal;
   }
-  .secondary-div {
-    display: flex;
-    flex-direction: row;
-  }
-
   .footercontainer {
     width: 100vw;
     height: 100vh;

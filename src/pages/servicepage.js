@@ -3,6 +3,7 @@ import apple from "../images/apple-icon.png";
 import android from "../images/playstore-icon.png";
 import list from "../images/list.svg";
 import iphone15 from "../images/iphone15.svg";
+import halfphone from "../images/halfphone.png";
 
 const servicepage = () => {
   return (
@@ -26,6 +27,11 @@ const servicepage = () => {
         <div className="back">
           <div className="position-div">
             <img className="phone" src={iphone15} alt="phone-alt" />
+          </div>
+        </div>
+        <div className="mobile-back">
+          <div className="pos-div">
+            <img className="half" src={halfphone} alt="halfalt" />
           </div>
         </div>
         <img className="list" src={list} alt="list_alt" />

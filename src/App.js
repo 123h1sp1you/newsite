@@ -19,23 +19,21 @@ import Ourgoal from "./pages/ourgoal";
 
 import Servicepage from "./pages/servicepage";
 
-import Team from "./pages/team";
-
-// import Note from "./pages/note";
+//import Team from "./pages/team";
 
 function App() {
   return (
     <div className="container">
-     <Headerpage />
+      <Headerpage />
       <Heropage />
       <Heroimagepage />
-      <Enquiry /> 
+      <Enquiry />
       <Forpage />
       <Ourgoal />
       <Servicepage />
-      <Team />
-  <Aboutpage />
-      <Footerpage /> 
+      {/* <Team /> */}
+      <Aboutpage />
+      <Footerpage />
     </div>
   );
 }
