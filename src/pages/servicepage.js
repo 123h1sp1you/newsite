@@ -4,7 +4,7 @@ import android from "../images/playstore-icon.png";
 import list from "../images/list.svg";
 import iphone15 from "../images/iphone15.svg";
 import halfphone from "../images/halfphone.png";
-
+import listpc from "../images/listpc.svg";
 const servicepage = () => {
   return (
     <div className="services">
@@ -34,7 +34,9 @@ const servicepage = () => {
             <img className="half" src={halfphone} alt="halfalt" />
           </div>
         </div>
+
         <img className="list" src={list} alt="list_alt" />
+        <img className="listpc" src={listpc} alt="list_pc" />
       </div>
     </div>
   );

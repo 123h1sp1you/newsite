@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Aboutpage from "./pages/aboutpage";
 
 import Enquiry from "./pages/enquiry";
@@ -18,10 +18,11 @@ import Heropage from "./pages/heropage";
 import Ourgoal from "./pages/ourgoal";
 
 import Servicepage from "./pages/servicepage";
+import Note from "./pages/note";
 
 //import Team from "./pages/team";
 
-function App() {
+function Homepage() {
   return (
     <div className="container">
       <Headerpage />
@@ -35,6 +36,17 @@ function App() {
       <Aboutpage />
       <Footerpage />
     </div>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" exact element={<Homepage />} />
+        <Route path="/note" element={<Note />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

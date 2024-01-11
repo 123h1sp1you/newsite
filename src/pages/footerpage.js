@@ -8,6 +8,7 @@ import youtube from "../images/youtube.png";
 import facebook from "../images/facebook.png";
 import email from "../images/email.png";
 import brandlogo from "../images/brandlogo.svg";
+import { Link } from "react-router-dom";
 
 const footerpage = () => {
   return (
@@ -66,7 +67,9 @@ const footerpage = () => {
           <text className="support-text">Support</text>
           <text className="support-text2">Hospiyou for doctors</text>
           <text className="support-text2">Contact Us</text>
-          <text className="support-text2">Investors</text>
+          <Link className="support-text2" to="/Note">
+            Investors
+          </Link>
         </div>
       </div>
       <div className="footer-download">

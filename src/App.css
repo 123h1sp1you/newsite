@@ -98,8 +98,10 @@
 .downloaddiv {
   display: flex;
   flex-direction: row;
+  gap: 10px;
+  align-items: center;
   justify-content: space-between;
-  width: 672px;
+  width: "100%";
   height: 72px;
   margin: 20px;
 }
@@ -292,7 +294,7 @@
 }
 .whycare {
   color: #0a1f42;
-   font-family: Inter;
+  font-family: Inter;
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
@@ -301,10 +303,10 @@
 .whygeneral {
   flex-direction: row;
   padding-top: 71px;
-  /* padding-left: 114px;
-  padding-right: 114px; */
-  height: 760px;
-  width: "100%";
+  padding-left: 114px;
+  padding-right: 114px;
+  height: auto;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
 }
@@ -364,6 +366,7 @@
   width: "100%";
   align-items: center;
   flex-direction: column;
+  margin-top: 136px;
 }
 .unique {
   color: #0a1f42;
@@ -398,10 +401,12 @@
 }
 .servicedivtwo {
   display: flex;
+
   margin-top: 70px;
   justify-content: space-between;
-  height: 890px;
-  width: 1512px;
+  height: auto;
+  padding: 10px;
+  width: 100vw;
   flex-direction: row;
 }
 
@@ -470,8 +475,15 @@
   margin-left: 156px;
 }
 
+.listpc {
+  width: 515px;
+  height: 541px;
+  margin-top: 50px;
+  margin-right: 127px;
+}
 .list {
   margin-right: 127px;
+  display: none;
 }
 .about {
   height: 667px;
@@ -479,6 +491,10 @@
   flex-direction: column;
   display: flex;
   align-items: center;
+}
+.YTdiv {
+  width: 1280px;
+  height: 444px;
 }
 .abouthospiyou {
   color: #0a1f42;
@@ -764,15 +780,20 @@
 .for-general {
   align-items: center;
 }
+.list-back {
+  width: auto;
+  height: auto;
+}
 
 @media (max-width: 525px) {
   .container {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    height: auto;
+    /* padding: 10px; */
     width: "100%";
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: #fff;
     overflow-x: hidden;
   }
@@ -1150,26 +1171,26 @@
     line-height: 170%;
   }
   .purple-style {
-   
     display: none;
   }
   .purple-mobile {
     height: 545px;
     display: block;
     width: 90vw;
-    box-shadow: 10px 10px #9747FF;
+    box-shadow: 10px 10px #9747ff;
     border-radius: 16px;
   }
 
   .services {
     width: 100vw;
     display: flex;
-    height: 1300px;
+    height: auto;
     align-items: center;
     flex-direction: column;
+    margin-top: 109px;
   }
   .unique {
-    color: #0A1F42;
+    color: #0a1f42;
     text-align: center;
     font-family: Inter;
     font-size: 40px;
@@ -1180,7 +1201,7 @@
   }
 
   .following {
-    color: #0A1F42;
+    color: #0a1f42;
     width: 90vw;
     text-align: center;
     font-family: Inter;
@@ -1194,7 +1215,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 90vw;
+    width: 100vw;
     height: 72px;
     gap: 20px;
   }
@@ -1220,16 +1241,15 @@
     width: 90vw;
     align-items: center;
     display: block;
-    background-color: #F1F9FE;
+    background-color: #f1f9fe;
     align-self: center;
     border-radius: 16px;
-    box-shadow: 10px 10px #9CD9FF;
+    box-shadow: 10px 10px #9cd9ff;
   }
   .pos-div {
     width: "100%";
     height: "100%";
     align-items: center;
-    
   }
   .back {
     width: 733px;
@@ -1294,11 +1314,23 @@
     margin-top: 26px;
     margin-left: 156px;
   }
+  .list-back {
+    width: 100vw;
+    margin-top: 20px;
+    height: 440px;
+    padding-left: 30px;
 
+    display: flex;
+    justify-content: center;
+  }
+  .listpc {
+    display: none;
+  }
   .list {
-    
+    display: block;
     height: 424px;
     width: 70vw;
+    margin-left: 104px;
   }
   .about {
     height: 538px;
@@ -1309,7 +1341,7 @@
   }
   .abouthospiyou {
     color: #0a1f42;
-    
+
     text-align: center;
     font-family: Inter;
     font-size: 40px;
@@ -1546,7 +1578,7 @@
     align-self: center;
     gap: 16px;
   }
-  
+
   .TC-text {
     color: #0a1f42;
     font-family: Inter;
@@ -1573,7 +1605,7 @@
     font-weight: 400;
     line-height: 150%;
   }
-  
+
   .support-text {
     color: #0a1f42;
     font-family: Inter;
@@ -1581,7 +1613,7 @@
     font-style: normal;
     font-weight: 700;
   }
-  
+
   .support-text2 {
     color: #0a1f42;
     font-family: Inter;
@@ -1589,9 +1621,74 @@
     font-style: normal;
     font-weight: 400;
   }
-  
+
   .position-div {
     width: 733px;
     height: "100%";
+  }
+  .note-div {
+    padding: 10px;
+    width: 100vw;
+    background-color: #fff;
+    flex-direction: column;
+    display: flex;
+  }
+  .phone-div {
+    display: flex;
+    width: 100vw;
+    height: 422px;
+    /* padding: 27px 9px 27px 27px; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: #f5eeff;
+    flex-direction: row;
+  }
+  .phones {
+    width: 179px;
+    height: 366px;
+    gap: 17px;
+  }
+  .letter-div {
+    height: auto;
+    width: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  .letter-header {
+    color: #0a1f42;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .letter-content {
+    color: #0a1f42;
+    width: 100vw;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+  }
+
+  .letter-button {
+    display: inline-flex;
+    height: 56px;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  .letterbuttontext {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
   }
 }

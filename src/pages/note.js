@@ -1,12 +1,12 @@
 import React from "react";
-import Headerpage from "../pages/headerpage";
-import Footerpage from "../pages/footerpage";
+// import Headerpage from "../pages/headerpage";
+// import Footerpage from "../pages/footerpage";
 import bentphone from "../images/bentphone.png";
 import straightphone from "../images/straightphone.png";
 const Note = () => {
   return (
     <div>
-      <Headerpage />
+      {/* <Headerpage /> */}
       <div className="note-div">
         <div className="phone-div">
           <img className="phones" src={bentphone} alt="bentalt" />
@@ -33,7 +33,7 @@ const Note = () => {
           </button>
         </div>
       </div>
-      <Footerpage />
+      {/* <Footerpage /> */}
     </div>
   );
 };
