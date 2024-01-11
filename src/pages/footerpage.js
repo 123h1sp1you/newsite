@@ -5,12 +5,38 @@ import twitter from "../images/twitter.png";
 import instagram from "../images/instagram.png";
 import linkedin from "../images/linkedin.png";
 import youtube from "../images/youtube.png";
-import facebook from "../images/facebook.png";
+
 import email from "../images/email.png";
 import brandlogo from "../images/brandlogo.svg";
 import { Link } from "react-router-dom";
 
 const footerpage = () => {
+  const handleEmailClick = () => {
+    const recipientEmail = "hi@hospiyou.com"; // Replace with the desired recipient email
+    const subject = "Important Information"; // Optional subject line
+    const body = "Here is the email body content."; // Optional email body
+
+    const mailtoLink = `mailto:${recipientEmail}?subject=${subject}&body=${body}`;
+
+    window.location.href = mailtoLink;
+  };
+  const handleInstagramClick = () => {
+    window.location.href =
+      "https://www.instagram.com/hospiyou?igshid=YzVkODRmOTdmMw==";
+  };
+
+  const handleTwitterClick = () => {
+    window.location.href = "https://x.com/hospiyou";
+  };
+
+  const handleYoutubeClick = () => {
+    window.location.href = "https://x.com/hospiyou";
+  };
+
+  const handleLinkedinClick = () => {
+    window.location.href = "https://www.linkedin.com/company/hospiyou/";
+  };
+
   return (
     <div className="footer">
       <div className="footer-wrapper">
@@ -18,22 +44,35 @@ const footerpage = () => {
           <img src={brandlogo} alt="brand" className="brandpic" />
           <div className="logo-container">
             <button className="logo-div">
-              <img src={twitter} alt="logo1" className="logo-style" />
+              <img
+                src={twitter}
+                onClick={handleTwitterClick}
+                alt="logo1"
+                className="logo-style"
+              />
             </button>
-            <button className="logo-div">
+            <button onClick={handleInstagramClick} className="logo-div">
               <img src={instagram} alt="logo2" className="logo-style" />
             </button>
-            <button className="logo-div">
+            <button onClick={handleLinkedinClick} className="logo-div">
               <img src={linkedin} alt="logo3" className="logo-style" />
             </button>
             <button className="logo-div">
-              <img src={youtube} alt="logo4" className="logo-style" />
+              <img
+                src={youtube}
+                alt="logo4"
+                className="logo-style"
+                onClick={handleYoutubeClick}
+              />
             </button>
+
             <button className="logo-div">
-              <img src={facebook} alt="logo5" className="logo-style" />
-            </button>
-            <button className="logo-div">
-              <img src={email} alt="logo6" className="logo-style" />
+              <img
+                onClick={handleEmailClick}
+                src={email}
+                alt="logo6"
+                className="logo-style"
+              />
             </button>
           </div>
         </div>
