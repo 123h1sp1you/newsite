@@ -1635,7 +1635,7 @@
   }
   .phone-div {
     display: flex;
-    width: 100vw;
+    width: 90vw;
     height: 422px;
     /* padding: 27px 9px 27px 27px; */
     justify-content: center;
@@ -1666,7 +1666,7 @@
   }
   .letter-content {
     color: #0a1f42;
-    width: 100vw;
+    width: 85vw;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
