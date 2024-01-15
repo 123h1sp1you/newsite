@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import apple from "../images/apple-icon.png";
 import android from "../images/playstore-icon.png";
+import Pop from "../pages/Pop";
 
-const heropage = () => {
+const Heropage = () => {
+  const [openModal, setOpenModal] = useState(false);
   return (
     <div className="hero">
       <text className="tagline">
@@ -12,16 +14,17 @@ const heropage = () => {
         Welcome to Hospiyou, where quality healthcare meets you wherever you are
       </text>
       <div className="downloaddiv">
-        <button className="downloadbutton">
+        <button onClick={() => setOpenModal(true)} className="downloadbutton">
           <img src={apple} alt="appleicon" className="icon-style" />
           <text className="downloadtext">Get app on Apple store</text>
         </button>
-        <button className="downloadbutton">
+        <button onClick={() => setOpenModal(true)} className="downloadbutton">
           <img src={android} alt="playstoreicon" className="icon-style" />
           <text className="downloadtext">Get app on Play store</text>
         </button>
+        <Pop open={openModal} onClose={() => setOpenModal(false)} />
       </div>
     </div>
   );
 };
-export default heropage;
+export default Heropage;

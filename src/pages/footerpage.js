@@ -5,7 +5,8 @@ import twitter from "../images/twitter.png";
 import instagram from "../images/instagram.png";
 import linkedin from "../images/linkedin.png";
 import youtube from "../images/youtube.png";
-
+import TCdoctor from "../docs/TERMS-AND-CONDITIONS-HOSPIYOU.pdf";
+import TCpatient from "../docs/TERMS-AND-CONDITIONS-HOSPIYOU.pdf";
 import email from "../images/email.png";
 import brandlogo from "../images/brandlogo.svg";
 import { Link } from "react-router-dom";
@@ -30,7 +31,7 @@ const footerpage = () => {
   };
 
   const handleYoutubeClick = () => {
-    window.location.href = "https://x.com/hospiyou";
+    window.location.href = "https://youtube.com/@HospiYou?si=SaHcL3C0_fOcnlac";
   };
 
   const handleLinkedinClick = () => {
@@ -98,8 +99,24 @@ const footerpage = () => {
           </div>
           <div className="TC">
             <text className="TC-text">Terms & conditions</text>
-            <text className="medpract">For medical practitioners</text>
-            <text className="individual">For individuals</text>
+            <Link
+              to={TCdoctor}
+              download="TERMS-AND-CONDITIONS-DOCTOR"
+              target="_blank"
+              rel="noreferrer"
+              className="medpract"
+            >
+              For medical practitioners
+            </Link>
+            <Link
+              to={TCpatient}
+              download="TERMS-AND-CONDITIONS-PATIENT"
+              target="_blank"
+              rel="noreferrer"
+              className="individual"
+            >
+              For individuals
+            </Link>
           </div>
         </div>
         <div className="third-div">

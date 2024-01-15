@@ -313,6 +313,7 @@
 .goaldiv {
   display: inline-flex;
   margin-top: 30px;
+  
   width: 475px;
   height: 167px;
   padding: 24px;
@@ -1126,7 +1127,7 @@
     padding-top: 50px;
     /* padding-left: 10px;
     padding-right: 10px; */
-    height: 1003px;
+    height: auto;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -1140,6 +1141,7 @@
     align-items: flex-start;
     gap: 12px;
     height: 121px;
+    margin-bottom: 39px;
     border-radius: 12px;
     background: #9747ff;
   }
@@ -1187,7 +1189,7 @@
     height: auto;
     align-items: center;
     flex-direction: column;
-    margin-top: 109px;
+    margin-top: 104px;
   }
   .unique {
     color: #0a1f42;
@@ -1229,6 +1231,7 @@
   }
   .servicedivtwo {
     display: flex;
+    gap: 41px;
     margin-top: 70px;
     justify-content: space-between;
     align-items: center;
@@ -1331,6 +1334,7 @@
     height: 424px;
     width: 70vw;
     margin-left: 104px;
+    margin-top: 20px;
   }
   .about {
     height: 538px;
@@ -1355,18 +1359,16 @@
     height: 348px;
   }
   .note-div {
-    padding-top: 75px;
-    padding-left: 116px;
-    padding-right: 116px;
-    padding-bottom: 116px;
+    padding: 10px;
     flex-direction: row;
+    align-items: flex-start;
     display: flex;
     gap: 32px;
   }
   .phone-div {
     display: flex;
-    width: 624px;
-    height: 679px;
+    width: 100vw;
+    height: 422px;
     padding: 45px 43.846px 43.999px 44px;
     justify-content: center;
     align-items: center;
@@ -1406,15 +1408,12 @@
   .letter-button {
     display: inline-flex;
     height: 56px;
-    width: 307px;
     padding: 10px 24px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    width: 255px;
     border-radius: 12px;
-    background: #9747ff;
-    margin-top: 40px;
-    border-width: 0px;
+    background: #9747FF;
   }
   .letterbuttontext {
     color: #fff;
@@ -1627,16 +1626,19 @@
     height: "100%";
   }
   .note-div {
-    padding: 10px;
+    align-items: flex-start; 
     width: 100vw;
+    
     background-color: #fff;
     flex-direction: column;
     display: flex;
   }
   .phone-div {
     display: flex;
+    gap: 17px;
     width: 90vw;
     height: 422px;
+    padding: auto;
     /* padding: 27px 9px 27px 27px; */
     justify-content: center;
     align-items: center;
@@ -1645,13 +1647,18 @@
     flex-direction: row;
   }
   .phones {
-    width: 179px;
+    width: 37vw;
     height: 366px;
-    gap: 17px;
+    
+  }
+  .phones2 {
+    width: 50vw;
+    height: 366px;
+    
   }
   .letter-div {
     height: auto;
-    width: auto;
+    width: 100vw;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -1663,10 +1670,11 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    
   }
   .letter-content {
     color: #0a1f42;
-    width: 85vw;
+    width: 90vw;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;

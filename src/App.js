@@ -13,7 +13,7 @@ import Headerpage from "./pages/headerpage";
 
 import Heroimagepage from "./pages/heroimagepage";
 
-import Heropage from "./pages/heropage";
+import Heropage from "./pages/Heropage";
 
 import Ourgoal from "./pages/ourgoal";
 
