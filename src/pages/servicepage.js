@@ -2,7 +2,7 @@ import React from "react";
 import apple from "../images/apple-icon.png";
 import android from "../images/playstore-icon.png";
 import list from "../images/list.svg";
-import iphone15 from "../images/iphone15.svg";
+import iphone15 from "../images/iphone15.png";
 import halfphone from "../images/halfphone.png";
 import listpc from "../images/listpc.svg";
 const servicepage = () => {
