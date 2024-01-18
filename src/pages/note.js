@@ -20,7 +20,7 @@ const Note = () => {
       <div className="note-div">
         <div className="phone-div">
           <img className="phones" src={bentphone} alt="bentalt" />
-          <img className="phones" src={straightphone} alt="straightalt" />
+          <img className="phones2" src={straightphone} alt="straightalt" />
         </div>
         <div className="letter-div">
           <text className="letter-header">A letter to investors</text>

@@ -1,7 +1,7 @@
 import React from "react";
 import brandlogo from "../images/brandlogo.svg";
 import { Link } from "react-scroll";
-//import { Link } from "react-scroll";
+
 const headerpage = () => {
   return (
     <div className="header">
