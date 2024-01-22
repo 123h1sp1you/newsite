@@ -229,11 +229,17 @@
 }
 
 .fordiv {
-  display: none;
+  display: flex;
+  height: auto;
+  width: 100vw;
+  justify-content: space-between;
+  margin-top: 55px;
+  /* padding-left: 100px;
+  padding-right: 100px; */
 }
 
 .for-mobile {
-  display: block;
+  display: none;
 }
 
 .practitioner {
@@ -248,6 +254,8 @@
   background: #f0fbe9;
   height: 624px;
   width: 624px;
+  margin-left: 50px;
+  
 }
 .for {
   color: #0a1f42;
@@ -285,12 +293,14 @@
   background: #f0fbe9;
   height: 624px;
   width: 624px;
+  margin-right: 50px;
 }
 
 .whycarediv {
   align-items: flex-start;
   flex-direction: column;
   display: flex;
+  margin-left: 50px;
 }
 .whycare {
   color: #0a1f42;
@@ -355,6 +365,7 @@
 .purple-style {
   width: 733px;
   height: 659px;
+  margin-right: 50px;
 }
 .purple-mobile {
   display: none;
