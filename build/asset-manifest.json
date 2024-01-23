@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7a83db3.css",
+    "main.js": "/static/js/main.d74ee0b5.js",
+    "static/js/787.6993cffd.chunk.js": "/static/js/787.6993cffd.chunk.js",
+    "static/media/family.png": "/static/media/family.ecd5a235b72a9125789f.png",
+    "static/media/docs.png": "/static/media/docs.23839772ca396202ad27.png",
+    "static/media/docmobile.png": "/static/media/docmobile.2ca62b3892c6c7c433d7.png",
+    "static/media/bedmobile.png": "/static/media/bedmobile.bdd832968fe347cf47b8.png",
+    "static/media/facilitypic.png": "/static/media/facilitypic.bdd832968fe347cf47b8.png",
+    "static/media/purple.png": "/static/media/purple.ad9473a49680748aa35b.png",
+    "static/media/mobilehold.png": "/static/media/mobilehold.ea9855e10ba7beafdfcd.png",
+    "static/media/purple-mobile.png": "/static/media/purple-mobile.250eb73e195e97d86bf1.png",
+    "static/media/iphone15.png": "/static/media/iphone15.53a744efc8cfb04d65b0.png",
+    "static/media/bentphone.png": "/static/media/bentphone.9f164ffd40d4962d07b8.png",
+    "static/media/straightphone.png": "/static/media/straightphone.10d0abf3afb476ad9e4d.png",
+    "static/media/halfphone.png": "/static/media/halfphone.a16908110d018d81e256.png",
+    "static/media/hero_image_pc.png": "/static/media/hero_image_pc.ce1665f402bdab0545dc.png",
+    "static/media/TERMS-AND-CONDITIONS-HOSPIYOU.pdf": "/static/media/TERMS-AND-CONDITIONS-HOSPIYOU.5f11b2f8db7843824199.pdf",
+    "static/media/bg.png": "/static/media/bg.7730a4d679bf51469020.png",
+    "static/media/list.svg": "/static/media/list.db2781407f2711dd041f9ece121bfa60.svg",
+    "static/media/listpc.svg": "/static/media/listpc.db1bcf752adb621a9def9f4dce71c04b.svg",
+    "static/media/mobilebg.png": "/static/media/mobilebg.4e44d4acc6d9ef9d3a95.png",
+    "static/media/brandlogo.svg": "/static/media/brandlogo.437fc2304253b1cc1e72f87cb7f92f09.svg",
+    "static/media/hand.svg": "/static/media/hand.b255f2f9674e25cfbea8303b0316954d.svg",
+    "index.html": "/index.html",
+    "main.e7a83db3.css.map": "/static/css/main.e7a83db3.css.map",
+    "main.d74ee0b5.js.map": "/static/js/main.d74ee0b5.js.map",
+    "787.6993cffd.chunk.js.map": "/static/js/787.6993cffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7a83db3.css",
+    "static/js/main.d74ee0b5.js"
+  ]
+}
