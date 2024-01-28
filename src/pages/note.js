@@ -1,8 +1,9 @@
 import React from "react";
-import Headerpage from "../pages/headerpage";
-import Footerpage from "../pages/footerpage";
+import Headerpage from "../pages/Headerpage";
+import Footerpage from "../pages/Footerpage";
 import bentphone from "../images/bentphone.png";
 import straightphone from "../images/straightphone.png";
+
 const Note = () => {
   const handleEmailClick = () => {
     const recipientEmail = "hi@hospiyou.com"; // Replace with the desired recipient email

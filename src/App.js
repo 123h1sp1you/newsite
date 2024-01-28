@@ -1,24 +1,24 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Aboutpage from "./pages/aboutpage";
+import Aboutpage from "./pages/Aboutpage";
 
-import Enquiry from "./pages/enquiry";
+import Enquiry from "./pages/Enquiry";
 
-import Footerpage from "./pages/footerpage";
+import Footerpage from "./pages/Footerpage";
 
-import Forpage from "./pages/forpage";
+import Forpage from "./pages/Forpage";
 
-import Headerpage from "./pages/headerpage";
+import Headerpage from "./pages/Headerpage";
 
-import Heroimagepage from "./pages/heroimagepage";
+import Heroimagepage from "./pages/Heroimagepage";
 
 import Heropage from "./pages/Heropage";
 
-import Ourgoal from "./pages/ourgoal";
+import Ourgoal from "./pages/Ourgoal";
 
-import Servicepage from "./pages/servicepage";
-import Note from "./pages/note";
+import Servicepage from "./pages/Servicepage";
+import Note from "./pages/Note";
 
 //import Team from "./pages/team";
 

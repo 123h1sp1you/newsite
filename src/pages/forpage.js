@@ -3,7 +3,8 @@ import docs from "../images/docs.png";
 import docmobile from "../images/docmobile.png";
 import bedmobile from "../images/bedmobile.png";
 import facilitypic from "../images/facilitypic.png";
-const forpage = () => {
+
+const Forpage = () => {
   return (
     <div className="for-general">
       <div className="fordiv">
@@ -50,4 +51,4 @@ const forpage = () => {
     </div>
   );
 };
-export default forpage;
+export default Forpage;
