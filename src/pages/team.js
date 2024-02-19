@@ -13,7 +13,7 @@ import philip from "../images/philip.png";
 import allwell from "../images/allwell.png";
 import tomiwa from "../images/tomiwa.png";
 
-const team = () => {
+const Team = () => {
   return (
     <div className="humans">
       <text className="of">Humans of Hospiyou</text>
@@ -37,4 +37,4 @@ const team = () => {
   );
 };
 
-export default team;
+export default Team;

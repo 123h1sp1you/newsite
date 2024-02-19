@@ -2,7 +2,7 @@ import React from "react";
 import purple from "../images/purple.png";
 import purplemobile from "../images/purple-mobile.png";
 
-const ourgoal = () => {
+const Ourgoal = () => {
   return (
     <div className="whygeneral">
       <div className="whycarediv">
@@ -24,4 +24,4 @@ const ourgoal = () => {
     </div>
   );
 };
-export default ourgoal;
+export default Ourgoal;
