@@ -11,6 +11,7 @@ import Heroimagepage from "./pages/Heroimagepage";
 import Heropage from "./pages/Heropage";
 import Servicepage from "./pages/Servicepage";
 import Ourgoal from "./pages/ourgoal";
+import Note from "./pages/note";
 
 
 //import Team from "./pages/team";
