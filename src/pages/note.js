@@ -1,6 +1,6 @@
 import React from "react";
-import Headerpage from "../pages/Headerpage";
-import Footerpage from "../pages/Footerpage";
+import Headerpage from "./Headerpage";
+import Footerpage from "./Footerpage";
 import bentphone from "../images/bentphone.png";
 import straightphone from "../images/straightphone.png";
 
