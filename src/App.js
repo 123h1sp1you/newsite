@@ -2,16 +2,16 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Aboutpage from "./pages/Aboutpage";
+import AboutPage from "./pages/AboutPage";
 import Enquiry from "./pages/Enquiry";
-import Footerpage from "./pages/Footerpage";
-import Forpage from "./pages/Forpage";
-import Headerpage from "./pages/Headerpage";
-import Heroimagepage from "./pages/Heroimagepage";
-import Heropage from "./pages/Heropage";
-import Servicepage from "./pages/Servicepage";
-import Ourgoal from "./pages/ourgoal";
-import Note from "./pages/note";
+import FooterPage from "./pages/FooterPage";
+import ForPage from "./pages/ForPage";
+import HeaderPage from "./pages/HeaderPage";
+import HeroImagePage from "./pages/HeroImagePage";
+import HeroPage from "./pages/HeroPage";
+import ServicePage from "./pages/ServicePage";
+import OurGoal from "./pages/OurGoal";
+import Note from "./pages/Note";
 
 
 //import Team from "./pages/team";
@@ -19,15 +19,15 @@ import Note from "./pages/note";
 function Homepage() {
   return (
     <div className="container">
-      <Headerpage />
-      <Heropage />
-      <Heroimagepage />
+      <HeaderPage />
+      <HeroPage />
+      <HeroImagePage />
       <Enquiry />
-      <Forpage />
-      <Ourgoal />
-      <Servicepage />
-      <Aboutpage />
-      <Footerpage />
+      <ForPage />
+      <OurGoal />
+      <ServicePage />
+      <AboutPage />
+      <FooterPage />
     </div>
   );
 }

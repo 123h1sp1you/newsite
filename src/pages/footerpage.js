@@ -11,7 +11,7 @@ import email from "../images/email.png";
 import brandlogo from "../images/brandlogo.svg";
 import { Link } from "react-router-dom";
 
-const Footerpage = () => {
+const FooterPage = () => {
   const handleEmailClick = () => {
     const recipientEmail = "hi@hospiyou.com"; // Replace with the desired recipient email
     const subject = "Important Information"; // Optional subject line
@@ -144,4 +144,4 @@ const Footerpage = () => {
     </div>
   );
 };
-export default Footerpage;
+export default FooterPage;

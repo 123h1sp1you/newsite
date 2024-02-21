@@ -5,7 +5,8 @@ import list from "../images/list.svg";
 import iphone15 from "../images/iphone15.png";
 import halfphone from "../images/halfphone.png";
 import listpc from "../images/listpc.svg";
-const Servicepage = () => {
+
+const ServicePage = () => {
   return (
     <div className="services">
       <text className="unique">Our unique services</text>
@@ -41,4 +42,4 @@ const Servicepage = () => {
     </div>
   );
 };
-export default Servicepage;
+export default ServicePage;

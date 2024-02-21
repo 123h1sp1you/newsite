@@ -2,7 +2,7 @@ import React from "react";
 import hero_image_pc from "../images/hero_image_pc.png";
 import mobilehold from "../images/mobilehold.png";
 
-const Heroimagepage = () => {
+const HeroImagePage = () => {
   return (
     <div style={{ flex: 1, justifyContent: "center", alignSelf: "center" }}>
       <div className="hero_image_pc">
@@ -14,4 +14,4 @@ const Heroimagepage = () => {
     </div>
   );
 };
-export default Heroimagepage;
+export default HeroImagePage;

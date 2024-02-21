@@ -2,7 +2,7 @@ import React from "react";
 import brandlogo from "../images/brandlogo.svg";
 import { Link } from "react-scroll";
 
-const Headerpage = () => {
+const HeaderPage = () => {
   return (
     <div className="header">
       <img src={brandlogo} alt="brand" className="brandpic" />
@@ -30,4 +30,4 @@ const Headerpage = () => {
     </div>
   );
 };
-export default Headerpage;
+export default HeaderPage;
