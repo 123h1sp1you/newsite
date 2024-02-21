@@ -26,7 +26,6 @@ function Homepage() {
       <Forpage />
       <Ourgoal />
       <Servicepage />
-      {/* <Team /> */}
       <Aboutpage />
       <Footerpage />
     </div>
