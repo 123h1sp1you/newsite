@@ -2,7 +2,7 @@ import React from "react";
 import apple from "../images/apple-icon.png";
 import android from "../images/playstore-icon.png";
 
-const Heropage = () => {
+const HeroPage = () => {
   return (
     <div className="hero">
       <text className="tagline">
@@ -24,4 +24,4 @@ const Heropage = () => {
     </div>
   );
 };
-export default Heropage;
+export default HeroPage;
