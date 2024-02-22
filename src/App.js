@@ -11,6 +11,7 @@ import OurGoal from "./pages/ourgoal";
 import ServicePage from "./pages/Servicepage";
 import AboutPage from "./pages/aboutpage";
 import FooterPage from "./pages/Footerpage";
+import Note from "./pages/Note";
 
 
 
@@ -24,6 +25,7 @@ function Homepage() {
       <ForPage />
       <OurGoal />
       <ServicePage />
+      <Note />
       <AboutPage />
       <FooterPage />
     </div>
