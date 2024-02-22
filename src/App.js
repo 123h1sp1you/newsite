@@ -2,19 +2,17 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import AboutPage from "./pages/AboutPage";
+import HeaderPage from "./pages/Headerpage";
+import HeroPage from "./pages/Heropage";
+import HeroImagePage from "./pages/Heroimagepage";
 import Enquiry from "./pages/Enquiry";
-import FooterPage from "./pages/FooterPage";
-import ForPage from "./pages/ForPage";
-import HeaderPage from "./pages/HeaderPage";
-import HeroImagePage from "./pages/HeroImagePage";
-import HeroPage from "./pages/HeroPage";
-import ServicePage from "./pages/ServicePage";
-import OurGoal from "./pages/OurGoal";
-import Note from "./pages/Note";
+import ForPage from "./pages/Forpage";
+import OurGoal from "./pages/ourgoal";
+import ServicePage from "./pages/Servicepage";
+import AboutPage from "./pages/aboutpage";
+import FooterPage from "./pages/Footerpage";
 
 
-//import Team from "./pages/team";
 
 function Homepage() {
   return (
