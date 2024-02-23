@@ -1,5 +1,5 @@
 import React from "react";
-import brandlogo from "../images/brandlogo.svg";
+import brandlogo from "../images/brandlogo.png";
 import { Link } from "react-scroll";
 
 const HeaderPage = () => {
@@ -8,18 +8,18 @@ const HeaderPage = () => {
       <img src={brandlogo} alt="brand" className="brandpic" />
       <ul className="nav">
         <li className="nav-button">
-          <Link to="OurGoal" smooth={true} duration={500}>
+          <Link to="Ourgoal" smooth={true} duration={500}>
             Our goals
           </Link>
         </li>
 
         <li className="nav-button">
-          <Link to="ServicePage" smooth={true} offset={-100} duration={500}>
+          <Link to="Servicepage" smooth={true} offset={-100} duration={500}>
             Our services
           </Link>
         </li>
         <li className="nav-button">
-          <Link to="AboutPage" smooth={true} offset={-50} duration={500}>
+          <Link to="Aboutpage" smooth={true} offset={-50} duration={500}>
             About
           </Link>
         </li>

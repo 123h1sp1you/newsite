@@ -8,7 +8,7 @@ import youtube from "../images/youtube.png";
 import TCdoctor from "../docs/TERMS-AND-CONDITIONS-HOSPIYOU.pdf";
 import TCpatient from "../docs/TERMS-AND-CONDITIONS-HOSPIYOU.pdf";
 import email from "../images/email.png";
-import brandlogo from "../images/brandlogo.svg";
+import brandlogo from "../images/brandlogo.png";
 import { Link } from "react-router-dom";
 
 const FooterPage = () => {
@@ -37,6 +37,10 @@ const FooterPage = () => {
   const handleLinkedinClick = () => {
     window.location.href = "https://www.linkedin.com/company/hospiyou/";
   };
+
+  const playstoredownload = () => {
+    window.location.href = "https://play.google.com/store/apps/details?id=com.hospiyou"
+  }
 
   return (
     <div className="footer">
@@ -80,11 +84,11 @@ const FooterPage = () => {
         <div className="footer-download_pc">
           <text className="footerdownloadtext_pc">Download App</text>
           <div className="footer-install_pc">
-            <button className="downloadbutton">
+            {/* <button className="downloadbutton">
               <img src={apple} alt="appleicon" className="icon-style" />
               <text className="downloadtext">Get app on Apple store</text>
-            </button>
-            <button className="downloadbutton">
+            </button> */}
+            <button className="downloadbutton" onClick={playstoredownload}>
               <img src={android} alt="playstoreicon" className="icon-style" />
               <text className="downloadtext">Get app on Play store</text>
             </button>
@@ -95,7 +99,13 @@ const FooterPage = () => {
         <div className="second-div">
           <div className="legal-div">
             <text className="Legal-text">Legal</text>
-            <text className="deletion">Request deletion of account</text>
+            <Link
+              to="https://docs.google.com/forms/d/e/1FAIpQLSd9jeUdFfAyZyhrSQTiEaEA55Fiqokkk63eTEKGxI8qnzsFRw/viewform"
+              target="_blank"
+              className="deletion"
+            >
+              Request deletion of account
+            </Link>
           </div>
           <div className="TC">
             <text className="TC-text">Terms & conditions</text>
@@ -121,8 +131,15 @@ const FooterPage = () => {
         </div>
         <div className="third-div">
           <text className="support-text">Support</text>
-          <text className="support-text2">Hospiyou for doctors</text>
-          <text className="support-text2">Contact Us</text>
+          <Link
+              to="/DoctorsForm"
+              target="_blank"
+              className="support-text2"
+            >
+              Hospiyou for Doctors
+            </Link>
+          <text className="support-text2"></text>
+          <text className="support-text2" onClick={handleEmailClick}>Contact Us</text>
           <Link className="support-text2" to="/Note">
             Investors
           </Link>

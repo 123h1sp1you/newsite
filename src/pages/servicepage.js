@@ -7,6 +7,11 @@ import halfphone from "../images/halfphone.png";
 import listpc from "../images/listpc.svg";
 
 const ServicePage = () => {
+
+  const playstoredownload = () => {
+    window.location.href = "https://play.google.com/store/apps/details?id=com.hospiyou"
+  }
+
   return (
     <div className="services">
       <text className="unique">Our unique services</text>
@@ -15,11 +20,11 @@ const ServicePage = () => {
         offer
       </text>
       <div className="downloaddivtwo">
-        <button className="downloadbutton">
+        {/* <button className="downloadbutton">
           <img src={apple} alt="appleicon" className="icon-style" />
           <text className="downloadtext">Get app on Apple store</text>
-        </button>
-        <button className="downloadbutton">
+        </button> */}
+        <button className="downloadbutton" onClick={playstoredownload}>
           <img src={android} alt="playstoreicon" className="icon-style" />
           <text className="downloadtext">Get app on Play store</text>
         </button>

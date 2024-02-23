@@ -7,11 +7,12 @@ import HeroPage from "./pages/Heropage";
 import HeroImagePage from "./pages/Heroimagepage";
 import Enquiry from "./pages/Enquiry";
 import ForPage from "./pages/Forpage";
-import OurGoal from "./pages/ourgoal";
+import OurGoal from "./pages/Ourgoal";
 import ServicePage from "./pages/Servicepage";
-import AboutPage from "./pages/aboutpage";
+import AboutPage from "./pages/Aboutpage";
 import FooterPage from "./pages/Footerpage";
 import Note from "./pages/Note";
+import DoctorsForm from "./pages/DoctorsForm";
 
 
 
@@ -25,9 +26,8 @@ function Homepage() {
       <ForPage />
       <OurGoal />
       <ServicePage />
-      <Note />
       <AboutPage />
-      <FooterPage />
+      <FooterPage /> 
     </div>
   );
 }
@@ -38,6 +38,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Homepage />} />
         <Route path="/note" element={<Note />} />
+        <Route path="/doctorsform" element={<DoctorsForm />} />
       </Routes>
     </BrowserRouter>
   );

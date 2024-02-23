@@ -18,6 +18,7 @@ const Note = () => {
   return (
     <div>
       <Headerpage />
+      <button><text>Go back </text></button>
       <div className="note-div">
         <div className="phone-div">
           <img className="phones" src={bentphone} alt="bentalt" />
