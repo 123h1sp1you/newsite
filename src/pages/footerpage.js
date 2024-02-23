@@ -1,5 +1,5 @@
 import React from "react";
-import apple from "../images/apple-icon.png";
+// import apple from "../images/apple-icon.png";
 import android from "../images/playstore-icon.png";
 import twitter from "../images/twitter.png";
 import instagram from "../images/instagram.png";
@@ -21,6 +21,7 @@ const FooterPage = () => {
 
     window.location.href = mailtoLink;
   };
+  
   const handleInstagramClick = () => {
     window.location.href =
       "https://www.instagram.com/hospiyou?igshid=YzVkODRmOTdmMw==";
@@ -148,12 +149,12 @@ const FooterPage = () => {
       <div className="footer-download">
         <text className="footerdownloadtext">Download App</text>
         <div className="footer-install">
-          <button className="downloadbutton">
+          {/* <button className="downloadbutton">
             <img src={apple} alt="appleicon" className="icon-style" />
             <text className="downloadtext">Get app on Apple store</text>
-          </button>
+          </button> */}
           <button className="downloadbutton">
-            <img src={android} alt="playstoreicon" className="icon-style" />
+            <img src={android} alt="playstoreicon" className="icon-style" onClick={playstoredownload} />
             <text className="downloadtext">Get app on Play store</text>
           </button>
         </div>

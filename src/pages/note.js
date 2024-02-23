@@ -3,6 +3,7 @@ import Headerpage from "./Headerpage";
 import Footerpage from "./Footerpage";
 import bentphone from "../images/bentphone.png";
 import straightphone from "../images/straightphone.png";
+import { Link } from "react-router-dom";
 
 const Note = () => {
   const handleEmailClick = () => {
@@ -18,7 +19,7 @@ const Note = () => {
   return (
     <div>
       <Headerpage />
-      <button><text>Go back </text></button>
+      <Link to={"/"}>Go back </Link>
       <div className="note-div">
         <div className="phone-div">
           <img className="phones" src={bentphone} alt="bentalt" />
