@@ -4,7 +4,7 @@ import purplemobile from "../images/purple-mobile.png";
 
 const OurGoal = () => {
   return (
-    <div className="whygeneral">
+    <div id="goals" className="whygeneral">
       <div className="whycarediv">
         <text className="whycare">Why do we care?</text>
         <text className="believe">

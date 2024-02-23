@@ -1,6 +1,6 @@
 import React from "react";
 import brandlogo from "../images/brandlogo.png";
-import { Link } from "react-scroll";
+import { HashLink } from "react-router-hash-link";
 
 const HeaderPage = () => {
   return (
@@ -8,20 +8,20 @@ const HeaderPage = () => {
       <img src={brandlogo} alt="brand" className="brandpic" />
       <ul className="nav">
         <li className="nav-button">
-          <Link to="Ourgoal" smooth={true} duration={500}>
+          <HashLink smooth to="/#goals">
             Our goals
-          </Link>
+          </HashLink>
         </li>
 
         <li className="nav-button">
-          <Link to="Servicepage" smooth={true} offset={-100} duration={500}>
+          <HashLink smooth to="/#services">
             Our services
-          </Link>
+          </HashLink>
         </li>
         <li className="nav-button">
-          <Link to="Aboutpage" smooth={true} offset={-50} duration={500}>
+        <HashLink smooth to="/#about">
             About
-          </Link>
+          </HashLink>
         </li>
       </ul>
       <button className="header-button">

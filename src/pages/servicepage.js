@@ -13,7 +13,7 @@ const ServicePage = () => {
   }
 
   return (
-    <div className="services">
+    <div id='services' className="services">
       <text className="unique">Our unique services</text>
       <text className="following">
         Following the launch of our mobile app, here are some unique services we
@@ -24,7 +24,7 @@ const ServicePage = () => {
           <img src={apple} alt="appleicon" className="icon-style" />
           <text className="downloadtext">Get app on Apple store</text>
         </button> */}
-        <button className="downloadbutton" onClick={playstoredownload}>
+        <button className="downloadbutton" onClick={playstoredownload} >
           <img src={android} alt="playstoreicon" className="icon-style" />
           <text className="downloadtext">Get app on Play store</text>
         </button>

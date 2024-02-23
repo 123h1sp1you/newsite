@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <text className="abouthospiyou">About Hospiyou</text>
       <div className="YTdiv">
         <iframe
